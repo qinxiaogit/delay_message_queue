@@ -1,0 +1,28 @@
+{
+    "require": {
+        "php-amqplib/php-amqplib": "^2.11",
+        "yansongda/supports": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "name": "owlet/rabbit-relay-queue",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Owlet\\DelayMessage\\": "src",
+            "Owlet\\DelayMessage\\Tests\\": "tests"
+        },
+      "classmap": [
+            "src"
+      ]
+    },
+    "description": "基于rabbit-mq 延时消息队列",
+    "type": "lib",
+         "authors": [
+           {
+                    "name": "owlet",
+                     "email": "qinxiaolove@gmail.com"
+                 }
+         ]
+}
